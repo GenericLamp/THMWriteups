@@ -35,12 +35,7 @@ Root access was successfully obtained, and the root flag was retrieved from the 
 The system was fully compromised due to two critical security issues. The first issue was an insecure file upload mechanism that allowed server-side code execution through a simple extension bypass. The second issue was a misconfiguration involving a SUID-enabled Python interpreter, which allowed immediate privilege escalation to root. Either issue alone represents a significant security risk; combined, they resulted in a complete system compromise.
 
 ## Flags
-
-User flag
-THM{y0u_g0t_a_sh3ll}
-#
-Root flag
-THM{pr1v1l3g3_3sc4l4t10n}
+Found in user.txt and root.txt
 
 # Technical Appendix
 
