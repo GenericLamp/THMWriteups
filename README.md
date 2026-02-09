@@ -3,7 +3,7 @@ Write-ups for my badly executed and solved THM Challenges.
 As I am a beginner and I am still learning, I try to do write-ups for practice and reviewing my own, badly executed work. 
 So use them at your own discretion. 
 ## Disclaimer about AI
-Some Write-ups are created with the help of ChatGPT after I prompted my notes into it. 
+Some write-ups are created with the help of ChatGPT after I prompted my notes into it. 
 #
 Sometimes I asked ChatGPT how to perform certain actions (e.g. help me with a structured approach) or to help me with commands - as everyone does today.
 #
