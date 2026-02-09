@@ -1,5 +1,7 @@
 # Write-up – RootMe (TryHackMe)
 
+https://tryhackme.com/room/rrootme
+
 ## Objective and Scope
 
 The objective of this assessment was to gain initial access to the provided Linux system and subsequently escalate privileges to root. The scope of the assessment was limited to the single target host provided within the TryHackMe room “RootMe”.
