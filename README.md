@@ -16,6 +16,3 @@ I checked the write-ups afterwords to rule out hallucination and to let them rep
 Cheers
 
 GL
-
-# Existing Write-ups
-- RootMe – https://tryhackme.com/room/rrootme
